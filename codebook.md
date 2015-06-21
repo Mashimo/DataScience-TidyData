@@ -38,9 +38,9 @@ Its range is from 1 to 30.
 ### Cleaning of the data
 The included script performs the following steps:  
 1. merge the training and the test data into one set
-2. Use descriptive activity names to name the activities in the data set
-3. Extract only the measurements on the mean and standard deviation for each measurement. 
-4. Appropriately label the data set with descriptive variable names. 
+2. use descriptive activity names to name the activities in the data set
+3. extract only the measurements on the mean and standard deviation for each measurement. 
+4. appropriately label the data set with descriptive variable names. 
 5. create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 **Details for each step are in the readMe document:  readMe.md  (same GitHub repo)**
@@ -52,7 +52,7 @@ The included script performs the following steps:
 ### Variables present in the dataset  
 * Subject: code identifying the test subject (int from 1 to 30)
 * Activity: factor with 6 levels such as “LAYING”, “SITTING”
-* list of total 86 features for the mean or standard deviations measured
+* a list of total 86 features for the mean or standard deviations measured
 
 If you are really curious, here are the 86 features, separated by comma:
 
