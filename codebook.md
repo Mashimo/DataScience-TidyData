@@ -24,7 +24,6 @@ These variables are described in the file features.txt
 * subject_test / subject_train : for each observation this is the volunteer who did the activity. 
 Its range is from 1 to 30.  
 
-
 ## Creating the tidy datafile
  
 ### Guide to create the tidy data file
@@ -33,8 +32,9 @@ Its range is from 1 to 30.
 3. store the two files in the same directory
 4. unzip the dataset so it creates a folder called "UCI HAR Dataset”
 5. run the script - no parameters are needed
-6. the script produces a text file called tiny_data.txt in the same directory
- 
+6. the script produces a text file called tiny_data.txt in the same directory  
+
+
 ### Cleaning of the data
 The included script performs the following steps:
 1. merge the training and the test data into one set
