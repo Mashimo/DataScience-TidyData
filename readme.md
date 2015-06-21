@@ -13,8 +13,8 @@ The raw dataset has been downloaded and unzipped in the same directory where the
 Assuming that all files have been read in memory.
 
 1. Merge the training and the test sets to create one data set. This will be the main data frame.  
-Since test and train files have variables with common names - you can verify with _intersect(names(df1)_, names(df2))_
- - then you can use a normal _merge()_ function.  
+Since test and train files have variables with common names - you can verify with _intersect(names(df1), names(df2))_,
+ then you can use a normal _merge()_ function.  
 Just be sure you always follow the same order. In this case it's first test, then train.
 
 2. Uses descriptive activity names to name the activities in the data set  
