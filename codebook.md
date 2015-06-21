@@ -36,7 +36,7 @@ Its range is from 1 to 30.
 
 
 ### Cleaning of the data
-The included script performs the following steps:
+The included script performs the following steps:  
 1. merge the training and the test data into one set
 2. Use descriptive activity names to name the activities in the data set
 3. Extract only the measurements on the mean and standard deviation for each measurement. 
