@@ -43,16 +43,16 @@ The included script performs the following steps:
 4. Appropriately label the data set with descriptive variable names. 
 5. create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-Details for each step are in the readMe document:  readMe.md  (same GitHub repo)
+**Details for each step are in the readMe document:  readMe.md  (same GitHub repo)**
  
 ## Description of the variables in the tiny_data.txt file
-* Dimensions of the dataset:  
+### Dimensions of the dataset:  
    30 subjects * 6 activities = 180 observations (lines)  
    Subject + Activity + 86 features = 88 variables (columns) 
-* Variables present in the dataset  
- * Subject: code identifying the test subject (int from 1 to 30)
- * Activity: factor with 6 levels such as “LAYING”, “SITTING”
- * list of total 86 features for the mean or standard deviations measured
+### Variables present in the dataset  
+* Subject: code identifying the test subject (int from 1 to 30)
+* Activity: factor with 6 levels such as “LAYING”, “SITTING”
+* list of total 86 features for the mean or standard deviations measured
 
 If you are really curious, here are the 86 features, separated by comma:
 
